@@ -1,0 +1,148 @@
+.body{
+    background-color: rgb(32, 7, 80);
+}
+
+header{
+    background-image: url(./Images/Photos/shapes.png), url(./Images/Photos/bg-header.png); 
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+
+.nav__logo{
+    position: relative;
+
+}
+
+.nav__logo::before{
+    content: url(./Images/icons/Logo.svg);
+    position: absolute;
+    top: 5px;
+    left: -35px;
+}
+
+
+
+.nav__button{
+    text-decoration: none;
+}
+
+.nav__button--btn{
+    border: 2px solid #EB5757;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 32px;
+    background: none;
+    cursor: pointer;
+}
+
+
+.one__card--btn{
+    background: #EB5757;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: none;
+}
+
+.two{
+    margin-top: 95px;
+    height: 868px;
+}
+
+.two__table{
+    width: 100%;
+}
+
+.tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.th{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 31px;
+}
+
+.h__th{
+    position: relative;
+}
+.h__th::after{
+    content: url(./Images/icons/Vector.svg);
+    width: 5px;
+    height: 4px;
+    position: absolute;
+    left: 14px;
+    top: -2px;
+}
+
+.th__one{
+    position: relative;
+}
+.th__one::before{
+    content: url(./Images/icons/star.svg);
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: -24px;
+    top: 28px;
+}
+
+.table__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.table__cod{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    color: #828282;
+}
+
+.table__inter{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+/* section platform */
+
+.crypto{
+    background-color: rgb(32, 7, 80);
+}
